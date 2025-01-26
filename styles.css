@@ -1,0 +1,155 @@
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.container {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 20px;
+  width: 330px;
+  padding: 30px 10px 30px 10px;
+}
+.rating-star {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+.star-btn {
+  border-style: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: hsl(0, 0%, 100%);
+  background-color: rgb(149, 158, 172, 0.1);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 25px 10px;
+}
+.star {
+  position: absolute;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading {
+  color: hsl(0, 0%, 100%);
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 10px;
+}
+.paragraph {
+  color: hsl(217, 12%, 63%);
+  padding: 10px;
+  font-size: 14px;
+  margin: 0;
+}
+.btns-grp {
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.btn1,
+.btn2,
+.btn3,
+.btn4,
+.btn5 {
+  border-style: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: hsl(0, 0%, 100%);
+  background-color: rgb(149, 158, 172, 0.1);
+  margin: 8px;
+  font-weight: 600;
+}
+.btn1:hover,
+.btn2:hover,
+.btn3:hover,
+.btn4:hover {
+  cursor: pointer;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(216, 12%, 8%);
+}
+.btn5:hover {
+  cursor: pointer;
+  background-color: hsl(25, 97%, 53%);
+}
+.submit-btn-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.submit-btn {
+  background-color: hsl(25, 97%, 53%);
+  height: 40px;
+  width: 270px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px;
+  border-style: none;
+  font-weight: 700;
+  color: hsl(216, 12%, 8%);
+  letter-spacing: 2px;
+}
+.submit-btn:hover {
+  background-color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+.five-btns:hover {
+  background-color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+/*thank you card section*/
+[hidden] {
+  display: none !important;
+}
+.thankyou-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.selected-rating {
+  border-style: none;
+  height: 35px;
+  width: 170px;
+  border-radius: 20px;
+  color: hsl(25, 97%, 53%);
+  background-color: rgb(149, 158, 172, 0.1);
+  margin: 16px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+}
+.num {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.thankyou-content {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.thankyou-content h2 {
+  color: hsl(0, 0%, 100%);
+  margin: 0;
+}
+.thankyou-content p {
+  color: hsl(217, 12%, 63%);
+  font-size: 14px;
+  padding: 7px;
+}
