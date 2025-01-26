@@ -24,6 +24,8 @@ Users should be able to:
 - See the "Thank you" card state after submitting a rating
 
 ### Screenshot
+![Screenshot 2025-01-26 at 19-04-30 Frontend Mentor Interactive rating component](https://github.com/user-attachments/assets/2663ad16-05c2-4468-be10-1134e75c6ca7)
+![Screenshot 2025-01-26 at 19-04-49 Frontend Mentor Interactive rating component](https://github.com/user-attachments/assets/55b95939-fe53-4d57-9def-cb19268320e3)
 
 
 ### Links
